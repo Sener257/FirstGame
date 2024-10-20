@@ -19,6 +19,7 @@ public class Main {
         window.setLocationRelativeTo(null);  //Plaziert Fenster in die Mitte des Bildschirmes
         window.setVisible(true);
 
+        gamePanel.startGameThread();
 
     }
 }
